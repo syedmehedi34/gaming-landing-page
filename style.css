@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans-font {
+    font-family: "Work Sans", sans-serif;
+  }
+
+
+/* Font section 
+___________________________ */
+
+/* Shared Style  */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.display-flex {
+    display: flex;
+}
+.span-color {
+    color: rgb(255, 66, 165);
+}
+
+
+
+/* Nav title bar section starts 
+________________________________________ */
+nav {
+    /* border: 1px solid black; */
+    justify-content:space-between;
+    align-items: center;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    background: rgb(255, 255, 255);
+    padding: 25px 0;
+}
+
+.gamer-portion {
+    /* border: 1px solid gold; */
+    align-items: center;
+    gap: 15px;
+    padding-left: 10%;
+}
+.gamer-logo{
+    width: 3.8rem;
+    height: fit-content;
+}
+
+.gamer-title {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.about-us-portion {
+    gap: 25px;
+    padding-right: 10%;
+    align-items: center;
+}
+.about-us-list {
+    color: rgb(60, 53, 79);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.follow-us-portion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    /* border: 2px solid gray; */
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.1);
+    /* padding: 10px; */
+    padding: 10px 20px;
+}
+
+/* nav title section complete  */
+
+
+
+
+
+/* G.O.A.T section starts 
+___________________________ */
+
+  .goat-section {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    /* justify-content: space-between; */
+    background: url(./images-2/background.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position:left;
+  }
+
+  .goat-play-like-portion {
+   padding-top: 3.5rem;
+  }
+
+  .goat-play-like-portion h3 {
+    /* border: 1px solid black; */
+    font-size: 2rem;
+    font-weight: 600;
+    color: rgb(11, 2, 35);
+    padding-bottom: 4px;
+  }
+  .goat-play-like-portion h1 {
+    background: linear-gradient(180.00deg, rgb(249, 72, 178),rgb(135, 88, 241));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 4.65rem;
+    font-weight: 800;
+    padding-bottom: 1.25rem;
+  }
+
+  .goat-left-item-container {
+    /* border: 2px solid green; */
+    margin-bottom: 2.25rem;
+
+  }
+  .goat-left-item {
+    /* border: 2px solid yellow; */
+    display: flex;
+    align-items: center;
+    gap: 2px;
+  }
+ .goat-left-item i {
+    width: 25px;
+}
+
+  .goat-sign-in-button {
+    border-radius: 48px;
+    background: linear-gradient(90.00deg, rgb(255, 66, 165) 13.134%,rgb(255, 66, 165) 87.942%);
+    padding: 12px 35px;
+    font-size: .85rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    border: none;
+  }
+  
+  .goat-go-rogue-btn {
+    border-radius: 48px;
+    background: rgb(78, 197, 247);
+    padding: 12px 30px;
+    font-size: .85rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    border: none;
+  }
+
+
+
+.goat-img-portion {
+    width: 30%;
+}
+.goat-img {
+    width: 100%;
+    height: fit-content;
+}
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
