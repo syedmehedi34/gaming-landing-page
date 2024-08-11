@@ -309,14 +309,6 @@ _________________________ */
     color: rgb(255, 66, 165);
 }
 
-  
-
-
-
-
-
-
-
 
 
 /* play instantly section  
@@ -385,70 +377,334 @@ ____________________________*/
   
   
 
+/* play games section 
+_________________________ */
+.online-games-section {
+    /* border: 2px solid black; */
+    width: 80%;
+    height: 30rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
 
+.online-games-img-container {
+    /* border: 2px solid green; */
+    width: 60%;
+    position: relative;
+}
+  
+  .online-img01 {
+    width: 300px;
+    height: fit-content;
+    position: absolute;
+    z-index: 0;
+    top: -200px;
+    left: 100px;
+
+  }
+  .online-img02 {
+    width: 200px;
+    height: fit-content;
+    position: absolute;
+    z-index: 1;
+    left: 260px;
+    top: -25px;
+  }
+
+
+
+
+
+  /* Career section  */
+  .career-section {
+    /* border: 1px solid black; */
+    background: linear-gradient(90.00deg, rgb(255, 66, 165) 13.134%,rgb(255, 66, 165) 87.942%);
+    padding: 5rem 7rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .career-left-container {
+    /* border: 2px solid greenyellow; */
+    width: 60%;
+    padding-right: 2.5rem;
+
+  }
+
+  .career-left-container h1 {
+    color: rgb(255, 255, 255);
+    font-size: 2.15rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+
+  .career-left-container p {
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1.75rem;
+  }
+
+
+  .career-list-container {
+    display: flex;
+    justify-content: space-between;
+
+  }
+  
+  .career-list-container-right {
+    /* border: 1px solid green; */
+    text-align: right;
+  }
+
+
+  .career-list {
+    list-style: none;
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 1.15rem;
+    font-weight: 600;
+    /* padding: 50px; */
+  }
+
+  .career-list li {
+    padding: 5px 0;
+  }
+
+  .career-btn {
+    padding: 15px 30px;
+    color: rgb(255, 66, 165);
+    background: white;
+    border-radius: 2rem;
+    border: none;
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin-top: 2rem;
+
+  }
+
+  
+  .career-img-container {
+    /* border: 2px solid beige; */
+    width: 50%;
+    height: fit-content;
+  }
+
+  .career-img {
+    /* border: 2px solid gold; */
+    /* width: 400px; */
+    width: 100%;
+    height: fit-content;
+  }
+
+
+
+
+  /* Games list section 
+  ____________________________ */
+
+  .game-section {
+    /* border: 2px solid green; */
+    padding: 5rem 0;
+    background: linear-gradient(90.00deg, rgba(255, 66, 165, 0.03) 13.134%,rgba(255, 66, 165, 0.03) 87.942%);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+  }
+  .games-card-container-line01,
+  .games-card-container-line02 {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 10px;
+   
+}
+
+.cards-line01 {
+    /* border: 1px solid gold; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .6rem;
+    width: 15%;
+    border-radius: 50px;
+    background: rgb(255, 255, 255);
+}
+.cards-line01 img {
+    width: 20%;
+}
+.cards-line01 p {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+
+  
+
+
+/* footer section 
+_____________________________ */
+  footer {
+    background: rgb(11, 2, 35);
+    padding: 7rem 0;
+  }
+
+  .footer-head {
+    /* border: 1px solid wheat; */
+    /* width: fit-content; */
+    justify-content: center;
+    padding: 0;
+    padding-bottom: 3rem;
+  }
+  .footer-head h3 {
+    color: white;
+  }
+
+
+
+  .footer-items-list {
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 4%;
+  }
+  .footer-items {
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+
+  
+.footer-logo {
+    /* align-items: center; */
+    text-align: center;
+    /* padding: 5%; */
+}
+.footer-logo i {
+    padding: 3rem 1.5%;
+    font-size: 2rem;
+}
+
+.privacy-container {
+    /* border: 1px solid beige; */
+    display: flex;
+    justify-content: center;
+    gap: 4%;
+}
+.privacy-container p {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.copyright-text {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    width: fit-content;
+    font-weight: 500;
+    margin: 0 auto;
+    margin-top: 1.75rem;
+}
 
 
 
   
-  
-
-
-
-
-
-  
-  
-
-
 
 
 
   
-  
-
-
-
-
-
-  
-  
-
-
 
 
 
   
-  
-
-
-
-
-
-  
-  
-
-
 
 
 
   
-  
-
-
-
-
-
-  
-  
-
-
 
 
 
   
+
+
+
   
 
 
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
 
 
 
