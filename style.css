@@ -235,11 +235,6 @@ _________________________ */
 }
 
 
-
-
-
-
-
   /* Funny videos section 
   ______________________________ */
 
@@ -249,7 +244,6 @@ _________________________ */
     padding-bottom: 3rem;
 
   }
-
 
   .funny-videos-title {
     font-size: 2.25rem;
@@ -275,21 +269,17 @@ _________________________ */
     margin-bottom: 2.25rem;
   }
 
-  
-
 .card-container {
     /* border: 1px solid black; */
     display: flex;
     justify-content: center;
     gap: 2rem;
-
 }
 
 .card {
     /* border: 2px solid green; */
     width: 20%;
 }
-
 
 .card-img,
 .card-img-bg {
@@ -303,6 +293,7 @@ _________________________ */
     background-color: rgba(0, 0, 0, 0.6); 
     background-image: url(images-2/card-4.png); 
     background-blend-mode: overlay; 
+    border: 3px solid  rgb(255, 66, 165);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -318,6 +309,143 @@ _________________________ */
     color: rgb(255, 66, 165);
 }
 
+  
+
+
+
+
+
+
+
+
+
+/* play instantly section  
+____________________________*/
+.play-instantly-section {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 5%; */
+    width: 75%;
+    height: 35rem;
+    margin: 0 auto;
+}
+
+.play-section-left-content {
+    /* border: 2px solid greenyellow; */
+    width: 30%;
+}
+
+.play-section-img-container{
+    /* border: 2px solid yellow; */
+    width: 60%;
+    position: relative;
+}
+.play-img-1 {
+    position: absolute;
+    z-index: 0;
+    right: 60px;
+    top: -200px;
+    
+}
+.play-img-2 {
+    position: absolute;
+    z-index: 1;
+    /* right: 200px; */
+    left: 140px;
+    top: -30px;
+}
+  
+  .play-img-1 {
+    width: 300px;
+    height: fit-content;
+  }
+  .play-img-2 {
+    width: 200px;
+    height: fit-content;
+  }
+
+.play-section-title {
+    font-size: 2.25rem;
+    font-weight: 700;
+    padding-bottom: 1.25rem;
+}
+.play-section-title span {
+    color: rgb(249, 72, 178);
+}
+.play-section-description {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(83, 76, 100);
+
+}
+
+
+  
+  
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
   
 
 
