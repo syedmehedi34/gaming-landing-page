@@ -76,9 +76,6 @@ nav {
 /* nav title section complete  */
 
 
-
-
-
 /* G.O.A.T section starts 
 ___________________________ */
 
@@ -159,50 +156,169 @@ ___________________________ */
     height: fit-content;
 }
 
+  
+
+/* Gamer section 
+_________________________ */
+
+.we-are-gamer-section {
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-between; */
+    gap: 5%;
+    background: linear-gradient(90.00deg, rgba(255, 66, 165, 0.03) 13.134%,rgba(255, 66, 165, 0.03) 87.942%);
+    padding: 3rem 0;
+
+}
+
+.gamer-section-right-container {
+    /* border: 2px solid green; */
+    width: 40%;
+}
+
+.gamer-section-right-title {
+    background: linear-gradient(180.00deg, rgb(249, 72, 178),rgb(135, 88, 241));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 2.35rem;
+    font-weight: 700;
+    padding-bottom: 1.5rem;
+    text-align: right;
+}
+
+.gamer-section-right-description {
+    color: rgb(83, 76, 100);
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: right;
+}
+.gamer-section-btn {
+    border-radius: 48px;
+    background: linear-gradient(90.00deg, rgb(255, 66, 165) 13.134%,rgb(255, 66, 165) 87.942%);
+    padding: 12px 35px;
+    font-size: .85rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    border: none;
+    /* align-items: right; */
+    /* margin-left: 100%; */
+    position: relative;
+    float: right;
+    margin-top: 1.85rem;
+  }
+
+  .gamer-our-purpose {
+    text-align: right;
+    margin-top: 6rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+  .gamer-our-purpose span {
+    font-size: 1.85rem;
+    font-weight: 700;
+  }
+
+
+.gamer-section-img-container {
+    /* border: 1px solid rgb(15, 15, 7); */
+    width: 40%;
+}
+.gamer-section-img {
+    /* border: 1px solid rgb(231, 231, 124); */
+
+    width: 300px ;
+    width: 100% ;
+    height: fit-content;
+    position: relative;
+    float: right;
+}
 
 
 
+
+
+
+
+  /* Funny videos section 
+  ______________________________ */
+
+  .funny-videos-section {
+    /* border: 1px solid black; */
+    margin-top: 6rem;
+    padding-bottom: 3rem;
+
+  }
+
+
+  .funny-videos-title {
+    font-size: 2.25rem;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: .9rem;
+  }
+  .funny-videos-title span {
+    background: linear-gradient(180.00deg, rgb(249, 72, 178),rgb(135, 88, 241));
+    -webkit-background-clip:
+    text;
+    -webkit-text-fill-color:
+    transparent;
+    background-clip:
+    text;
+  }
+
+  .funny-videos-description {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(83, 76, 100);
+    text-align: center;
+    margin-bottom: 2.25rem;
+  }
 
   
 
+.card-container {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+
+}
+
+.card {
+    /* border: 2px solid green; */
+    width: 20%;
+}
 
 
-
-
-
-
+.card-img,
+.card-img-bg {
+    width: 90%;
+    height: 320px;
+    padding-bottom: 1.25rem;
+}
+.card-img-bg {
+    box-sizing: border-box;
+    border-radius: 16px;
+    background-color: rgba(0, 0, 0, 0.6); 
+    background-image: url(images-2/card-4.png); 
+    background-blend-mode: overlay; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-icon {
+    font-size: 40px;
+    margin-bottom: .9rem;
+}
+.watch-now {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(255, 66, 165);
+}
 
   
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-  
-
-
-
 
 
 
