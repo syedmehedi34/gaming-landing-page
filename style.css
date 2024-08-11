@@ -376,7 +376,6 @@ ____________________________*/
 
   
   
-
 /* play games section 
 _________________________ */
 .online-games-section {
@@ -567,7 +566,6 @@ _____________________________ */
   }
 
 
-
   .footer-items-list {
     /* border: 1px solid white; */
     display: flex;
@@ -580,7 +578,6 @@ _____________________________ */
     font-size: 1rem;
     font-weight: 600;
   }
-
 
   
 .footer-logo {
@@ -621,7 +618,122 @@ _____________________________ */
 
 
   
+@media screen and (max-width: 480px) {
+    
+    /* display none  */
+    /* .goat-section, */
+    /* .we-are-gamer-section, */
+    .funny-videos-section,
+    .play-instantly-section,
+    .online-games-section,
+    .career-section, 
+    .game-section,
+    footer  {
+        display: none;
+    }
 
+/* ____________________________________ */
+
+ 
+
+/* flex direction */
+nav,
+.about-us-portion {
+    flex-direction: column;
+}
+
+
+
+/* nav section  */
+.gamer-portion {
+    /* border: 2px solid green; */
+    padding: 3rem 0 2rem 3rem;
+
+}
+
+.about-us-portion {
+    /* border: 1px solid gold; */
+    padding: 0;
+}
+.follow-us-portion {
+    margin-top: 1rem;
+}
+
+
+/* goat section  */
+
+.goat-section {
+    flex-direction: column-reverse;
+    /* justify-content: center; */
+    align-items: center;
+}
+.goat-img-portion {
+    /* border: 1px solid green; */
+    width: 70%;
+    margin-top: 2rem;
+}
+
+.goat-play-like-portion {
+    /* border: 2px solid green; */
+    padding-left: 1rem;
+}
+
+
+
+/* we are gamer section  */
+
+.we-are-gamer-section {
+    border: 1px solid green;
+    flex-direction: column;
+    padding: 0;
+    /* justify-content: center; */
+    /* align-items: center; */
+
+
+}
+.gamer-section-img-container {
+    /* border: 1px solid green; */
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+.gamer-section-right-container {
+    border: 1px solid green;
+    /* padding: 0; */
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gamer-section-right-title{
+    text-align: center;
+    padding-top: 1rem;
+}
+.gamer-section-right-description{
+    text-align: center;
+}
+
+
+
+.gamer-our-purpose {
+    border: 1px solid green;
+    margin-top: 0;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+
+
+ 
+
+
+
+
+
+
+
+}
 
 
   
