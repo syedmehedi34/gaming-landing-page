@@ -503,48 +503,187 @@ _________________________ */
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
   /* Games list section 
   ____________________________ */
 
-  .game-section {
+  .games-section {
     /* border: 2px solid green; */
-    padding: 5rem 0;
-    background: linear-gradient(90.00deg, rgba(255, 66, 165, 0.03) 13.134%,rgba(255, 66, 165, 0.03) 87.942%);
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+    height: 300px;
+    /* width: 95%; */
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-gap: 10px;
 
+    /* grid-template-columns: repeat(20, 45px); */
+
+    grid-template-areas: 
+    "a1 a1 a1 a1 a2 a2 a2 a2 a3 a3 a3 a3 a4 a4 a4 a4 a5 a5 a5 a5"    
+    "a6 a6 a6 a6 a6 a7 a7 a7 a7 a7 a8 a8 a8 a8 a8 a9 a9 a9 a9 a9"    
+    ;
   }
-  .games-card-container-line01,
-  .games-card-container-line02 {
-    /* border: 1px solid black; */
-    display: flex;
-    justify-content: center;
-    /* align-items: center; */
-    gap: 10px;
-   
-}
 
-.cards-line01 {
-    /* border: 1px solid gold; */
+  .game-card-1{
+    grid-area: a1;
+    border: 2px solid black;
+  }
+  .game-card-2 {
+    grid-area: a2;
+    border: 2px solid black;
+  }
+  .game-card-3{
+    grid-area: a3;
+    border: 2px solid black;
+  }
+  .game-card-4{
+    grid-area: a4;
+    border: 2px solid black;
+  }
+  .game-card-5  {
+    grid-area: a5;
+    border: 2px solid black;
+  }
+  .game-card-6{
+    grid-area: a6;
+    border: 2px solid black;
+  }
+  .game-card-7{
+    grid-area: a7;
+    border: 2px solid black;
+  }
+  .game-card-8{
+    grid-area: a8;
+    border: 2px solid black;
+  }
+  .game-card-9{
+    grid-area: a9;
+    border: 2px solid black;
+  }
+
+
+
+
+
+.g-card {
+    /* width: 15%; */
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: .6rem;
-    width: 15%;
     border-radius: 50px;
     background: rgb(255, 255, 255);
+
+
+    width: 100%;
+    /* width: 200px; */
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+
+
 }
-.cards-line01 img {
-    width: 20%;
+.g-card img {
+    width: 13%;
+    height: fit-content;
 }
-.cards-line01 p {
-    font-size: 1rem;
+.g-card p {
+    color: rgb(11, 2, 35);
+    font-size: .8rem;
     font-weight: 600;
 }
 
 
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* footer section 
